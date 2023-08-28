@@ -32,11 +32,10 @@ function CommandPrompt() {
 
 export default function Home() {
   const [pages, setPages] = useState([])
-  const [tiles, setTiles] = useState([])return
+  const [tiles, setTiles] = useState([])
 
   return (
     <main>
-      <Pages/>
       <CommandPrompt/>
     </main>
   )
